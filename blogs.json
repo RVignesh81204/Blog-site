@@ -1,0 +1,14 @@
+{
+  "1": {
+    "id": 1,
+    "title": "Learning EJS",
+    "description": "EJS makes embedding JavaScript into HTML easy.",
+    "tags": ["EJS", "Templating", "Node.js"]
+  },
+  "2": {
+    "id": 2,
+    "title": "Understanding REST APIs",
+    "description": "REST APIs are a powerful way to interact with web services.",
+    "tags": ["API", "Backend", "HTTP"]
+  }
+}

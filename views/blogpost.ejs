@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Posts</title>
+    <link rel="stylesheet" href="/styling.css">
+</head>
+<body>
+    <h2> Welcome to #blog <%= id %> </h2>
+    <p> Title - <%= data.title %> </p>
+    <p> Description - <%= data.description %> </p> 
+     Tags - <% for (let tag of data.tags) { %> 
+        <p> <%= tag %> </p> 
+        <% } %>
+    <% if(id==1) { %>    
+      <img src="https://media.licdn.com/dms/image/v2/D5612AQHqoggtzNgAmA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1678429815936?e=2147483647&v=beta&t=zBGVilDQQCRhw5WKJSMrfmoM6xa5fI2Jj3BJglxOfk0">  
+    <% } else { %>  
+      <img src = "https://sinay.ai/wp-content/uploads/2022/09/api-e1649279794668-scaled.webp">  
+    <% } %>
+</body>
+</html>

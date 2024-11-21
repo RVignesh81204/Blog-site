@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> List of Blogs </title>
+    <link rel = "stylesheet" href="/style.css">
+</head>
+<body>
+    <h2> Here is a list of blog posts : </h2>
+       <% for(let i = 1; i<=2; i++) { %>
+        <% let blogg = blogsData[i]; %>
+        <p> Welcome to #blog <%= i %> </p>
+        <p> Title - <%= blogg.title %> </p>
+        <p> Description - <%= blogg.description %> </p> 
+        <p>
+            <b><a href="http://localhost:8080/blogs/<%= i %>"> Link </a></b>
+          </p>
+          
+       <% } %>
+
+       <img src = "https://mailrelay.com/wp-content/uploads/2018/03/que-es-un-blog-1.png"
+    
+    
+</body>
+</html>
